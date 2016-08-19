@@ -1,13 +1,7 @@
 # Scan-Documents-and-Do-Server-side-Barcode-Reading
 The sample demonstrates how to scan and upload documents, perform server-side barcode reading and return the results.
 
-Software used
------------
-
-* [Dynamic Web TWAIN][1]
-* [Dynamsoft Barcode Reader][2]
-
-Complet Sample
+Complete Sample
 -----------
 * [Download Working Sample][3]
 
@@ -20,6 +14,8 @@ How to Run
 
 References:
 -----------
+* [Dynamic Web TWAIN][1]
+* [Dynamsoft Barcode Reader][2]
 
 [1]:http://www.dynamsoft.com/Downloads/WebTWAIN_Download.aspx
 [2]:http://www.dynamsoft.com/Downloads/Dynamic-Barcode-Reader-Download.aspx
