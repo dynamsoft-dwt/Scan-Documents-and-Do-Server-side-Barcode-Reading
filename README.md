@@ -8,7 +8,7 @@ Complete Sample
 How to Run
 -----------
 1. download and unzip
-2. Open Scan-Documents-and-Do-Server-side-Barcode-Reading.sln in Visual Studio
+2. Open `Scan-Documents-and-Do-Server-side-Barcode-Reading.sln` in Visual Studio
 3. Load or scan an image that has barcode symbols
 4. Press 'Read Barcode' button and check the result
 
