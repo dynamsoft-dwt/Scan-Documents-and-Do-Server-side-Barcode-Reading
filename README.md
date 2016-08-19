@@ -23,4 +23,4 @@ References:
 
 [1]:http://www.dynamsoft.com/Downloads/WebTWAIN_Download.aspx
 [2]:http://www.dynamsoft.com/Downloads/Dynamic-Barcode-Reader-Download.aspx
-[2]:http://www.dynamsoft.com/Samples/DWT/Scan-Documents-and-Do-Server-side-Barcode-Reading.zip
+[3]:http://www.dynamsoft.com/Samples/DWT/Scan-Documents-and-Do-Server-side-Barcode-Reading.zip
