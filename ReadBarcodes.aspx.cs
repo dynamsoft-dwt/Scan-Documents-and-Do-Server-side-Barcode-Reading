@@ -34,7 +34,7 @@ public partial class ReadBarcodes : System.Web.UI.Page
             options.BarcodeFormats = (BarcodeFormat.OneD | BarcodeFormat.QR_CODE | BarcodeFormat.PDF417 | BarcodeFormat.DATAMATRIX);
 
             reader.ReaderOptions = options;
-            reader.LicenseKeys = "569E7EDC9B26B399112EB091A78DD57D";
+            reader.LicenseKeys = "310711B75A4AD34CB4763957D423F99C";
 
             BarcodeResult[] results = null;
             if (System.Int32.Parse(strbottom) > 0)
