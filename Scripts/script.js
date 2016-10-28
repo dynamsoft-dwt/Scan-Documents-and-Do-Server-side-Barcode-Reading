@@ -27,8 +27,11 @@ function Dynamsoft_OnReady() {
         * Make sure the PDF Rasterizer and OCR add-on are already installedsample
         */
         if (!Dynamsoft.Lib.env.bMac) {
-            var localPDFRVersion = DWObject._innerFun('GetAddOnVersion', '["pdf"]');
-            if (Dynamsoft.Lib.env.bIE) {
+            var localPDFRVersion = '';
+			if(Dynamsoft.Lib.product.bChromeEdition){
+				localPDFRVersion = DWObject._innerFun('GetAddOnVersion', '["pdf"]');
+			}
+            else {
                 localPDFRVersion = DWObject.getSWebTwain().GetAddonVersion("pdf");
             }
             if (localPDFRVersion != Dynamsoft.PdfVersion) {
